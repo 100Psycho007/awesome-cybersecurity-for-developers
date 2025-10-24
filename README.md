@@ -583,8 +583,8 @@ ecure Coding by Language
 
 #### Secure Libraries
 - **[helmet](https://helmetjs.github.io/)** - Security middleware for Express
-- **[bcrypt](https://www.npmjs.com/package/bcrypt)** - Password hashing
-- **[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)** - JWT implementation
+- **[bcrypt](https://github.com/kelektiv/node.bcrypt.js)** - Password hashing
+- **[jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)** - JWT implementation
 
 ### Java Security
 
@@ -614,7 +614,7 @@ ecure Coding by Language
 
 #### Security Tools
 - **[Gosec](https://github.com/securecodewarrior/gosec)** - Go security analyzer
-- **[Nancy](https://github.com/sonatypecommunity/nancy)** - Dependency vulnerability scanner
+- **[Govulncheck](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck)** - Go vulnerability scanner
 - **[Semgrep](https://semgrep.dev/)** - Static analysis with Go rules
 
 #### Secure Libraries
@@ -712,7 +712,7 @@ Security scanner for Terraform code.
 **Focus:** Secure coding practices across multiple languages  
 **Certificate:** Yes (paid tier)
 
-#### [Coursera - Software Security](https://www.coursera.org/learn/software-security)
+#### [Coursera - Cybersecurity Specialization](https://www.coursera.org/specializations/cyber-security)
 ![Paid](https://img.shields.io/badge/Paid-orange) ![Intermediate](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
 **Provider:** University of Maryland  
@@ -733,7 +733,7 @@ Security scanner for Terraform code.
 **Best For:** Staying updated with OWASP initiatives and web security trends  
 **Frequency:** Regular uploads
 
-#### [LiveOverflow](https://www.youtube.com/c/LiveOverflowCTF)
+#### [LiveOverflow](https://www.youtube.com/@LiveOverflow)
 ![Free](https://img.shields.io/badge/Free-brightgreen)
 
 **Focus:** Binary exploitation, reverse engineering, CTF walkthroughs  
@@ -762,7 +762,7 @@ Security scanner for Terraform code.
 **Why Follow:** In-depth reporting on major security incidents and trends  
 **Frequency:** Multiple posts per week
 
-#### [OWASP Blog](https://owasp.org/blog/)
+#### [OWASP News](https://owasp.org/news/)
 ![Free](https://img.shields.io/badge/Free-brightgreen)
 
 **Focus:** Web application security, OWASP projects, community updates  
@@ -837,10 +837,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📊 Statistics
 
-![GitHub stars](https://img.shields.io/github/stars/username/awesome-cybersecurity-for-developers?style=social)
-![GitHub forks](https://img.shields.io/github/forks/username/awesome-cybersecurity-for-developers?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/username/awesome-cybersecurity-for-developers?style=social)
-![GitHub contributors](https://img.shields.io/github/contributors/username/awesome-cybersecurity-for-developers)
+![GitHub stars](https://img.shields.io/github/stars/100Psycho007/awesome-cybersecurity-for-developers?style=social)
+![GitHub forks](https://img.shields.io/github/forks/100Psycho007/awesome-cybersecurity-for-developers?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/100Psycho007/awesome-cybersecurity-for-developers?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/100Psycho007/awesome-cybersecurity-for-developers)
 
 **Last Updated:** October 24, 2025  
 **Total Resources:** 50+ tools and resources  
