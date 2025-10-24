@@ -10,6 +10,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+# Give the GITHUB_TOKEN permission to create issues
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
@@ -22,12 +27,13 @@ jobs:
         args: --verbose --no-progress './README.md'
         fail: true
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Create Issue From File
       if: failure()
       uses: peter-evans/create-issue-from-file@v5
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         title: "Broken Links Detected"
         content-filepath: ./lychee/out.md
         labels: |

@@ -613,7 +613,7 @@ ecure Coding by Language
 - Implement proper error handling without information disclosure
 
 #### Security Tools
-- **[Gosec](https://github.com/securecodewarrior/gosec)** - Go security analyzer
+- **[Gosec](https://github.com/securego/gosec)** - Go security analyzer
 - **[Govulncheck](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck)** - Go vulnerability scanner
 - **[Semgrep](https://semgrep.dev/)** - Static analysis with Go rules
 
