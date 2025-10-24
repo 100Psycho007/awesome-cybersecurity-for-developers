@@ -28,8 +28,8 @@ jobs:
       if: failure()
       uses: peter-evans/create-issue-from-file@v5
       with:
-        title: Link Checker Report
+        title: "Broken Links Detected"
         content-filepath: ./lychee/out.md
         labels: |
-          report
+          bug
           automated issue
