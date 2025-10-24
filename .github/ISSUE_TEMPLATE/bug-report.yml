@@ -1,0 +1,54 @@
+name: Bug Report
+description: Report a problem with the repository (broken links, incorrect information, etc.)
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue! Please provide as much detail as possible.
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue are you reporting?
+      options:
+        - Broken Link
+        - Incorrect Information
+        - Formatting Issue
+        - Missing Information
+        - Duplicate Entry
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource/Section Affected
+      description: Which resource or section of the README is affected?
+      placeholder: ex. Semgrep, OWASP Top 10 section, etc.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue in detail
+      placeholder: What's wrong and what should it be instead?
+    validations:
+      required: true
+
+  - type: input
+    id: expected-url
+    attributes:
+      label: Correct URL (if applicable)
+      description: If reporting a broken link, what should the correct URL be?
+      placeholder: ex. https://correct-url.com
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Screenshots, error messages, etc.

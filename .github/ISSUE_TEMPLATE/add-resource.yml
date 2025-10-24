@@ -1,0 +1,92 @@
+name: Add New Resource
+description: Suggest a new cybersecurity tool or resource for developers
+title: "[ADD] "
+labels: ["enhancement", "new-resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest a new resource! Please fill out the information below.
+
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource Name
+      description: What is the name of the tool/resource?
+      placeholder: ex. Semgrep
+    validations:
+      required: true
+
+  - type: input
+    id: resource-url
+    attributes:
+      label: Resource URL
+      description: What is the main URL for this resource?
+      placeholder: ex. https://semgrep.dev/
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which category does this resource belong to?
+      options:
+        - SAST Tools
+        - SCA/Dependency Scanning
+        - Secrets Detection
+        - Container Security
+        - API Security
+        - IDE Plugins
+        - Learning Resources
+        - Books/Courses
+        - YouTube Channels
+        - Blogs/Newsletters
+        - DevSecOps Tools
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a brief description of what this resource does and why it's useful for developers
+      placeholder: Tell us about this resource...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License Type
+      description: What type of license does this resource have?
+      options:
+        - Open Source (Free)
+        - Commercial (Paid)
+        - Freemium (Free tier available)
+        - Unknown
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification Checklist
+      description: Please verify the following before submitting
+      options:
+        - label: The resource is actively maintained (updated within the last 12 months)
+          required: true
+        - label: The resource is relevant to developers (not just security professionals)
+          required: true
+        - label: The resource has good documentation and community support
+          required: true
+        - label: I have checked that this resource is not already listed in the repository
+          required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional context or information about this resource
+      placeholder: Optional additional details...
