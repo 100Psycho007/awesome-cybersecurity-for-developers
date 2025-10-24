@@ -1,8 +1,8 @@
 # Awesome Cybersecurity for Developers 🔒
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/username/awesome-cybersecurity-for-developers?style=social)](https://github.com/username/awesome-cybersecurity-for-developers)
-[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202025-brightgreen)](https://github.com/username/awesome-cybersecurity-for-developers)
+[![GitHub stars](https://img.shields.io/github/stars/100Psycho007/awesome-cybersecurity-for-developers?style=social)](https://github.com/100Psycho007/awesome-cybersecurity-for-developers)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-October%202025-brightgreen)](https://github.com/100Psycho007/awesome-cybersecurity-for-developers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > A curated collection of cybersecurity resources, tools, and best practices specifically designed for developers. From secure coding to DevSecOps, this list helps developers build security into every stage of the development lifecycle.
