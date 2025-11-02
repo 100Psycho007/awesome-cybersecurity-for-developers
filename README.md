@@ -712,7 +712,7 @@ Security scanner for Terraform code.
 **Focus:** Secure coding practices across multiple languages  
 **Certificate:** Yes (paid tier)
 
-#### [Coursera - Cybersecurity Specialization](https://www.coursera.org/specializations/cyber-security)
+#### [Coursera - Introduction to Cyber Security Specialization](https://www.coursera.org/specializations/intro-cyber-security)
 ![Paid](https://img.shields.io/badge/Paid-orange) ![Intermediate](https://img.shields.io/badge/Difficulty-Intermediate-yellow)
 
 **Provider:** University of Maryland  
@@ -804,7 +804,7 @@ Security scanner for Terraform code.
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on how to add new resources, report issues, or improve existing content.
+We welcome contributions from the community! Please see our [Contributing Guidelines](.github/CONTRIBUTING.md) for details on how to add new resources, report issues, or improve existing content.
 
 ### Quick Contribution Checklist
 
