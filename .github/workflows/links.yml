@@ -21,17 +21,24 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Link Checker
-      uses: lycheeverse/lychee-action@v1.10.0
+    - name: Restore lychee cache
+      uses: actions/cache@v4
       with:
-        args: --verbose --no-progress './README.md'
+        path: .lycheecache
+        key: cache-lychee-${{ github.sha }}
+        restore-keys: cache-lychee-
+
+    - name: Link Checker
+      uses: lycheeverse/lychee-action@v2.7.0
+      with:
+        args: --verbose --no-progress --cache './**/*.md'
         fail: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Create Issue From File
       if: failure()
-      uses: peter-evans/create-issue-from-file@v5
+      uses: peter-evans/create-issue-from-file@v6.0.0
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         title: "Broken Links Detected"
