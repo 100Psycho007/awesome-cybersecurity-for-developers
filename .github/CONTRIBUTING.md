@@ -161,7 +161,7 @@ Contributors will be:
 ## Questions?
 
 If you have questions about contributing:
-1. Check existing [Issues](../../issues) for similar questions
+1. Check existing [Issues](../issues) for similar questions
 2. Create a new issue with the `question` label
 3. Join our community discussions
 
