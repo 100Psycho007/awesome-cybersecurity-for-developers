@@ -161,13 +161,13 @@ Contributors will be:
 ## Questions?
 
 If you have questions about contributing:
-1. Check existing [Issues](../issues) for similar questions
+1. Check existing [Issues](https://github.com/100Psycho007/awesome-cybersecurity-for-developers/issues) for similar questions
 2. Create a new issue with the `question` label
 3. Join our community discussions
 
 ## Code of Conduct
 
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project and everyone participating in it is governed by our [Code of Conduct](https://github.com/100Psycho007/awesome-cybersecurity-for-developers/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ---
 

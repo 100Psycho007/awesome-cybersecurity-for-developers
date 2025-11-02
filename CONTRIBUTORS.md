@@ -11,4 +11,4 @@ Thank you to all the contributors who have helped make this project better!
 
 ---
 
-Want to contribute? Check out our [Contributing Guidelines](CONTRIBUTING.md)!
+Want to contribute? Check out our [Contributing Guidelines](.github/CONTRIBUTING.md)!
