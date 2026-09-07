@@ -562,6 +562,7 @@ ecure Coding by Language
 - **[Bandit](https://github.com/PyCQA/bandit)** - Python security linter
 - **[Safety](https://github.com/pyupio/safety)** - Dependency vulnerability scanner
 - **[Semgrep](https://semgrep.dev/)** - Static analysis with Python rules
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon): Open source autonomous penetration testing platform, 50 specialist agents over MCP, reproducible proof of exploitation, self hosted.
 
 #### Secure Libraries
 - **[cryptography](https://cryptography.io/)** - Modern cryptographic library
